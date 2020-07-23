@@ -3,11 +3,10 @@ import ReactDOM from "react-dom";
 import App from "./App";
 import * as serviceWorker from "./serviceWorker";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "./scss/index.scss";
-
 import "jquery/dist/jquery.slim";
 import "popper.js/dist/umd/popper.min.js";
 import "bootstrap/dist/js/bootstrap.min.js";
+import "./scss/index.scss";
 //Redux
 import { createStore, applyMiddleware, compose } from "redux";
 
