@@ -1,0 +1,11 @@
+.custom__loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.custom__loading .sweet-loading {
+  height: 100%;
+  top: 50%;
+  transform: translateY(50%);
+}
